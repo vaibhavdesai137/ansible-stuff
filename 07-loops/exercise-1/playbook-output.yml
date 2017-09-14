@@ -1,0 +1,13 @@
+# Playbook
+
+-
+  hosts: localhost
+  fruits:
+    - Apple
+    - Banana
+    - Grapes
+    - Orange
+  tasks:
+    -
+      command: echo '{{ item }}'
+      with_items: '{{ fruits }}'
