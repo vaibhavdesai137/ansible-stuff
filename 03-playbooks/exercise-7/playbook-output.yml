@@ -1,4 +1,4 @@
-# Playbook file
+# Playbook
 
 -
   name: Stop all web nodes

@@ -1,5 +1,5 @@
 #
-# We have updated the food.yml file with nutrition information for Fruits. Similarly update the nutrition information for Vegetables. Use the below table for information
+# We have updated the food-input.yml file with nutrition information for Fruits. Similarly update the nutrition information for Vegetables. Use the below table for information
 # 
 # Vegetable    Calories     Fat     Carbs
 # Carrot       25           0.1g    6g 

@@ -1,6 +1,8 @@
+# Playbook
+
 -
   name: Execute two commands on boston nodes
-  hosts: boston_nodes
+  hosts: localhost
   tasks:
     -
       name: Execute a date command

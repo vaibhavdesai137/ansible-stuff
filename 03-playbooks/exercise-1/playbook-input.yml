@@ -1,5 +1,7 @@
+# Playbook
+
 -
-  name: Execute a date command on localhost
+  name: Play 1
   hosts: localhost
   tasks:
     -

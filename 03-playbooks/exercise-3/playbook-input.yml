@@ -1,5 +1,7 @@
+# Playbook
+
 -
-  name: Execute a command to display hosts file on localhost
+  name: Execute two commands on localhost
   hosts: localhost
   tasks:
     -

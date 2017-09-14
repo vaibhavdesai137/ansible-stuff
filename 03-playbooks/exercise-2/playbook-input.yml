@@ -1,5 +1,7 @@
+# Playbook
+
 -
-  name: Play 1
+  name: Execute a command to display hosts file on localhost
   hosts: localhost
   tasks:
     -

@@ -1,0 +1,14 @@
+# Playbook
+
+-
+  name: Some BS playbook
+  hosts: web_nodes
+  tasks:
+    -
+      name: Execute a script
+      script: /tmp/install_script.sh
+    - 
+      name: Start httpd service
+      service:
+        name: httpd
+        state: started
