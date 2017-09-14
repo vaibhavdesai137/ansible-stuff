@@ -1,0 +1,15 @@
+# Playbook
+
+-
+  name: Update nameserver entry into resolv.conf file on localhost
+  hosts: localhost
+  tasks:
+    -
+      name: Print my car model
+      command: echo "My car's model is BMW M3"
+    -
+      name: Print my country
+      command: echo "I live in the USA"
+    -
+      name: Print my title
+      command: echo "I work as a Systems Engineer"
