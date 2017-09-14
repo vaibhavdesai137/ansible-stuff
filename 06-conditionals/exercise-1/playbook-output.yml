@@ -1,0 +1,9 @@
+# Playbook
+
+-
+  name: Some BS playbook
+  hosts: all_servers
+  tasks:
+    -
+      service: name=mysql state=started
+      when: ansible_host == "server4.company.com"
