@@ -1,0 +1,7 @@
+-
+  name: Execute command to display date on web_node1
+  hosts: web_node1
+  tasks:
+    -
+      name: Execute a date command
+      command: date

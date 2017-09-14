@@ -1,0 +1,41 @@
+# Playbook file
+
+-
+  name: Stop all web nodes
+  hosts: web_nodes
+  tasks:
+    - 
+      name: Execute a command to stop web service
+      command: service httpd stop
+
+-
+  name: Stop all db nodes
+  hosts: db_nodes
+  tasks:
+    - 
+      name: Execute a command to stop mysql service
+      command: service mysql stop
+
+-
+  name: Reboot all (web and db) nodes
+  hosts: all_nodes
+  tasks:
+    - 
+      name: Execute a command to reboot all nodes
+      command: /sbin/shutdown -r
+
+-
+  name: Start all db nodes
+  hosts: db_nodes
+  tasks:
+    - 
+      name: Execute a command to start mysql service
+      command: service mysql start
+
+-
+  name: Start all web nodes
+  hosts: web_nodes
+  tasks:
+    - 
+      name: Execute a command to start web service
+      command: service httpd start
